@@ -16,7 +16,7 @@
             <nuxt-link to="/activity/flag"><v-btn color="error" dark large>กิจกรรมวิชาชีพ</v-btn></nuxt-link>
           </div>
           <div class="my-2">
-            <nuxt-link to="/menu"><v-btn x-large color="success" dark>กลับหน้าหลัก</v-btn></nuxt-link>
+            <nuxt-link to="/#"><v-btn x-large color="success" dark>กลับหน้าหลัก</v-btn></nuxt-link>
           </div>
         </div>
       </v-col>
