@@ -28,12 +28,13 @@
             </v-list-item-action>
 
             <v-list-item-content>
-               <center><h6>กรุณาเพิ่มข้อมูลให้ครบทุกช่อง</h6></center>
+                <center><v-btn class="" tile color="red" prepend-icon="mdi-plus" dark>Add</v-btn></center>
             </v-list-item-content>
           </v-list-item>
         </v-list>
-
-       
+   <center><h5>
+     <br>
+     </h5></center>
       </v-card>
     </v-col>
   </v-row>
