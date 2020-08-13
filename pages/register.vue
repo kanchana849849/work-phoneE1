@@ -1,12 +1,16 @@
 <template>
   <v-row justify="center">
-    <v-col cols="12" sm="8">
-      <v-card color="teal darken-4">
-        <v-card-title class="white">
-         <v-img src="https://bestreview.asia/wp-content/uploads/2020/04/Desktop-PC.jpg" height="300px"></v-img>
+    <v-col cols="12" sm="6">
+      <v-card color="teal amber ">
+        <v-card-title class="">
+          <nuxt-link to="/#">
+         <v-icon x-large>home</v-icon>
+         </nuxt-link>
+           <v-spacer></v-spacer>
+        <span class="headline dark--text"><h2>Register</h2></span>
           
         </v-card-title>
-        <center><span class="headline dark--text">Register</span></center>
+        
         <v-list>
           <v-list-item @click="">
             <v-list-item-action>
@@ -17,7 +21,8 @@
               <v-text-field label="Username"prepend-icon="mdi-account"/>
               <v-text-field label="Password"prepend-icon="mdi-lock"/>
               <v-text-field label="Email"prepend-icon="mdi-email"/>
-              <v-text-field  label="Tell" prepend-icon="mdi-phone"/>
+              <v-text-field label="Tell" prepend-icon="mdi-phone"/>
+
             </v-list-item-content>
           </v-list-item>
 

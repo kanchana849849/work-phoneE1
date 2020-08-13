@@ -1,9 +1,21 @@
 <template>
     <div>
-        กิจกรรมวิชาชีพ
+       <br>
         <br>
-            <nuxt-link to="/menu"> 
-             <v-btn depressed small color="primary">กลับหน้าหลัก</v-btn>  
-            </nuxt-link>
+        <br>
+        
+        <center><span><h3>กิจกรรมวิชาชีพ</h3></span></center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center> <nuxt-link to="/menu"> 
+            <v-btn class="ma-2" tile color="primary" dark>เมนูกิจกรรม</v-btn>  
+            </nuxt-link></center>
+           
     </div>
 </template>

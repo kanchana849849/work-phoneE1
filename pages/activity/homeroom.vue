@@ -1,14 +1,22 @@
 <template>
     <div>
-        กิจกรรมโฮมรูม
         <br>
-        <div class="my-2">
+        <br>
+        <br>
         
-     
-            <nuxt-link to="/menu"> 
-           <v-btn depressed small color="primary">กลับหน้าหลัก</v-btn> 
-            </nuxt-link>
-             </div>
+        <center><span><h3>กิจกรรม Homerom</h3></span></center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center> <nuxt-link to="/menu"> 
+            <v-btn class="ma-2" tile color="primary" dark>กลับหน้าหลัก</v-btn>  
+            </nuxt-link></center>
+           
     </div>
 
 </template>

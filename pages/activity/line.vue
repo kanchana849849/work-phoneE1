@@ -1,9 +1,21 @@
 <template>
     <div>
-        กิจกรรมเข้าแถว
         <br>
-            <nuxt-link to="/menu"> 
-            <v-btn depressed small color="primary">กลับหน้าหลัก</v-btn>  
-            </nuxt-link>
+        <br>
+        <br>
+        
+        <center><span><h3>กิจกรรมเข้าแถว</h3></span></center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center> <nuxt-link to="/menu"> 
+            <v-btn class="ma-2" tile color="primary" dark>กลับหน้าหลัก</v-btn>  
+            </nuxt-link></center>
+           
     </div>
 </template>
